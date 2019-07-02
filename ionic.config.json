@@ -1,5 +1,7 @@
 {
   "name": "app4_idiomas",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

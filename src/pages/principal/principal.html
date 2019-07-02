@@ -1,0 +1,51 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button *ngIf="idioma == 1" ion-button color="primary" class="configBtn" (click)="openModalLanguage()"><img src="../../assets/img/espana.jpg"></button>
+        <button *ngIf="idioma == 2" ion-button color="primary" class="configBtn" (click)="openModalLanguage()"><img src="../../assets/img/reino_unido.jpg"></button>
+      </ion-col>
+      <ion-col>
+        <button *ngIf="tema == 1" ion-button color="primary" class="configBtn" (click)="openModalThings()"><img src="../../assets/img/perro.png"></button>
+        <button *ngIf="tema == 2" ion-button color="primary" class="configBtn" (click)="openModalThings()"><img src="../../assets/img/numeros.png"></button>
+        <button *ngIf="tema == 3" ion-button color="primary" class="configBtn" (click)="openModalThings()"><img src="../../assets/img/coloresingles.png"></button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button *ngIf="tema == 1" ion-button color="secondary" class="btnSound" (click)="playSound('ciervo')"><img src="../../assets/img/animales/ciervo.png"></button>
+        <button *ngIf="tema == 2" ion-button color="secondary" class="btnSound" (click)="playSound('1')">1</button>
+        <button *ngIf="tema == 3" ion-button class="btnSound red" (click)="playSound('rojo')"></button>
+      </ion-col>
+      <ion-col>
+        <button *ngIf="tema == 1" ion-button color="secondary" class="btnSound" (click)="playSound('conejo')"><img src="../../assets/img/animales/conejo.png"></button>
+        <button *ngIf="tema == 2" ion-button color="secondary" class="btnSound" (click)="playSound('2')">2</button>
+        <button *ngIf="tema == 3" ion-button class="btnSound orange" (click)="playSound('naranja')"></button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button *ngIf="tema == 1" ion-button color="secondary" class="btnSound" (click)="playSound('mapache')"><img src="../../assets/img/animales/mapache.png"></button>
+        <button *ngIf="tema == 2" ion-button color="secondary" class="btnSound" (click)="playSound('3')">3</button>
+        <button *ngIf="tema == 3" ion-button class="btnSound blue" (click)="playSound('azul')"></button>
+      </ion-col>
+      <ion-col>
+        <button *ngIf="tema == 1" ion-button color="secondary" class="btnSound" (click)="playSound('oso')"><img src="../../assets/img/animales/oso.png"></button>
+        <button *ngIf="tema == 2" ion-button color="secondary" class="btnSound" (click)="playSound('4')">4</button>
+        <button *ngIf="tema == 3" ion-button class="btnSound yellow" (click)="playSound('amarillo')"></button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button *ngIf="tema == 1" ion-button color="secondary" class="btnSound" (click)="playSound('puercoespin')"><img src="../../assets/img/animales/puerco_espin.png"></button>
+        <button *ngIf="tema == 2" ion-button color="secondary" class="btnSound" (click)="playSound('5')">5</button>
+        <button *ngIf="tema == 3" ion-button class="btnSound green" (click)="playSound('verde')"></button>
+      </ion-col>
+      <ion-col>
+        <button *ngIf="tema == 1" ion-button color="secondary" class="btnSound" (click)="playSound('zorro')"><img src="../../assets/img/animales/zorro.png"></button>
+        <button *ngIf="tema == 2" ion-button color="secondary" class="btnSound" (click)="playSound('6')">6</button>
+        <button *ngIf="tema == 3" ion-button class="btnSound violet" (click)="playSound('violeta')"></button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,53 @@
+page-principal {
+    .configBtn {
+        height: 100%;
+        width: 100%;
+    }
+
+    img {
+        height: 70%;
+    }
+
+    .btnSound {
+        height: 100%;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    ion-grid {
+        height: 100%;
+    }
+
+    ion-row {
+        height: 25%;
+    }
+
+    ion-col {
+        height: 100%;
+        width: 100%;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .orange {
+        background-color: orange;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+
+    .green {
+        background-color: green;
+    }
+
+    .violet {
+        background-color: purple;
+    }
+}
